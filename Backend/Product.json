@@ -1,0 +1,26 @@
+[
+    {
+     "name" : "nike slim shitr",
+     "slug": "nike-slim-shirt",
+     "category":"Shirts",
+     "image" : "https://tse3.mm.bing.net/th?id=OIP.CdnvLAnx5fbMjyktyE3tlAHaLW&pid=Api&P=0",
+     "price":120,
+     "countINStock":5,
+    },
+    {
+     "name" : "adidas-fit-shirts",
+     "slug": "adidas-fit-pants",
+     "category":"pants",
+     "image" : "https://images-na.ssl-images-amazon.com/images/I/71jIO%2B7MpbL._UL1500_.jpg",
+     "price":120,
+     "countINStock":5,
+    },
+    {
+     "name" : "adidas-fit-pants",
+     "slug": "adidas-fit-shirt",
+     "category":"pants",
+     "image" : "https://tse3.mm.bing.net/th?id=OIP.xFajsOa6L0937oCS7WDmogHaJd&pid=Api&P=0",
+     "price":120,
+     "countINStock":5,
+    }
+ ]

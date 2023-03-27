@@ -1,0 +1,37 @@
+mongodb+srv://amazona:amazona@cluster0.lqeq8we.mongodb.net/amazona?retryWrites=true&w=majority
+app.get('/api/products',(req,res)=>{
+    res.json(data.products);
+});
+let payload ={
+      user:{
+        id:exist.id,
+      }
+    }
+    jwt.sign(payload,'jwtsecret',{expiresIn:3600000},
+      (err,token)=>{
+        if (err) throw err;
+        return res.json({token})
+      }
+      )
+      let exist = await User.findOne({email});
+    if (!exist) {
+      return res.status(400).send('user not found')
+    }
+    if (exist.password !== password) {
+      return res.status(400).send('invalid')
+    }
+    
+
+    const express = require('express');
+const Order = require('../models/orderModel.js');
+
+const orderRouter = express.Router();
+orderRouter.post('/:id', (async (req,res)=> {
+    const order = await Order.findById(req.params.id);
+    if (order) {
+        res.send(order)
+    }else{
+        res.send(404).send({message:'order not found'})
+    }
+})
+);
