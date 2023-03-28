@@ -1,1 +1,0 @@
-# sandeep-ganta-sheyshop.com
